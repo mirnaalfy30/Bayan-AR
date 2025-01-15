@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayan AR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="minimize_main.css">
+    <link rel="stylesheet"
+        href="https://cdn-cms-s.f-static.net/versions/2/css/websiteCSS.css?w=&amp;orderScreen=&amp;websiteID=7865691&amp;onlyContent=&amp;tranW=&amp;v=css_y226_42378796"
+        class="reloadable-css" type="text/css">
+    <link rel="stylesheet" class="f-a-css"
+        href="https://cdn-cms-s.f-static.net/files/font-awesome-4.7/css/font-awesome.min.css?v=n84021">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/your-kit-id.css">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+
+        @font-face {
+            font-family: 'Henriette';
+            src: url('/fonts/henriette.woff2') format('woff2'),
+                url('/fonts/henriette.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Headland One", serif !important;
+        }
+
+        @font-face {
+            font-family: 'Impact';
+            src: url('fonts/impact.woff2') format('woff2'),
+                url('fonts/impact.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .locksmith-text {
+            font-family: 'Impact', sans-serif;
+            font-size: 48px;
+            font-weight: normal !important;
+        }
+
+        :root {
+            --global_main_color: #039ac5;
+            --global_main_color_btn_text_color: #cdf3fe;
+        }
+
+        .navbar {
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+
+        .navbar-brand img {
+            height: 50px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: var(--global_main_color);
+        }
+
+        .header-container {
+            position: relative;
+        }
+
+        .headers-container {
+            z-index: 1;
+        }
+
+        .navbar {
+            z-index: 1000;
+        }
+
+        .jarallax-container {
+            z-index: 0;
+        }
+
+        .navbar-brand {
+            float: left;
+            height: 50px;
+            padding: 0px 0px !important;
+        }
+
+        @media (min-width: 992px) {
+            .navbar-expand-lg .navbar-nav .nav-link {
+                padding-right: var(--bs-navbar-nav-link-padding-x);
+                padding-left: 0px !important;
+            }
+
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        select:invalid {
+        color: #a1a0a0; /* Placeholder color */
+    }
+    option {
+        color: black; /* Default color for other options */
+    }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="position: fixed; z-index: 2000;">
+        <div class="container" style="margin-left: 60px;">
+            <a class="navbar-brand d-flex align-items-center" href="#section-169" style="width: 200px;">
+                <img src="lol.png" alt="Logo" style="width: 45px; height: auto; margin-right: 10px;">
+                <h3 style="margin: 0px;">Bayan AR</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto pe-xl-5 pe-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#our-vision">Our Vision</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#why-learn-arabic">Why Learn Arabic</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-it-works">How Bayan AR Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="section-169"
+        class="s123-module s123-module-headers layout-30 bg-half-opacity headers-fix-mobile-height  parallax-on "
+        data-parallax-images-amount="1" data-module-id="169" data-module-type-num="169" data-slider-speed="5"
+        data-version="">
+        <div class="jarallax-container"
+            style="top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px 100%); background-color: rgb(0, 0, 0);">
+            <div class="headers-container  hpm-height-100vh" style="background-position: center center; 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-image: url('https://images.cdn-files-a.com/ready_uploads/media/4967404/2000_5ea9898e06a3e.jpg'); 
+        width: 100%; 
+        height: 100%; 
+        transform-style: preserve-3d; 
+        will-change: transform; 
+        backface-visibility: hidden; ">
+                <div class="headers-text-wrap container" style="margin-top: 70px;">
+
+                    <div class="row header-text-vertical-position-center">
+                        <div class="col-xs-12 col-sm-7 ">
+                            <div class="">
+                                <div class="headers-text-orders  header-text-shadow">
+                                    <div data-aos="slide-up" class="aos-init aos-animate">
+                                        <h1 class="m-h-item header1 custom-font-settings  locksmith-text  header-modules-header-font"
+                                            style="--header-font-size: 83;" data-old-bold="false" data-custom-font=""
+                                            data-is-italic-supported="" data-line-height="">
+                                            Learn Arabic
+                                            <h2 class="m-h-item header1 custom-font-settings  locksmith-text  header-modules-header-font"
+                                                style="--header-font-size: 60;" data-old-bold="false"
+                                                data-custom-font="" data-is-italic-supported="" data-line-height="">At
+                                                Any Time</h2>
+                                            <h2 class="m-h-item header1 custom-font-settings  locksmith-text  header-modules-header-font"
+                                                style="--header-font-size: 60;" data-old-bold="false"
+                                                data-custom-font="" data-is-italic-supported="" data-line-height="">And
+                                                Any Where </h2>
+                                        </h1>
+                                    </div>
+                                    <div class="line headers-text-separator"></div>
+                                    <div data-aos="slide-up" class="aos-init aos-animate">
+                                        <h2 class="m-h-item header2 custom-font-settings   header-modules-header-font"
+                                            style="--header-font-size: 29;" data-custom-font=""
+                                            data-is-italic-supported="" data-line-height="">Unlock the beauty of Arabic
+                                            – fill the form and begin your journey today!
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-5 d-flex justify-content-center align-items-center "
+                            style="height:100vh;">
+                            <div class="headers-form-wrap preview-highlighter bg-primary-gray header-box-shadow box-border-style-1"
+                                data-open-tool="contactBox"
+                                style="width: 100%; max-width: 400px; margin: 0;  box-sizing: border-box;">
+                                <form id="form" class="breakable contactUsForm">
+                                    <div>
+                                        <div class="form-group">
+                                            <input type="text" name="Name" placeholder="Name" class="form-control"
+                                                required="" data-msg-required="This field is required.">
+                                        </div>
+                                        <!-- <div class="form-group">
+                                            <input type="text" name="Country" placeholder="Country"
+                                                class="form-control" required=""
+                                                data-msg-required="This field is required.">
+                                        </div> -->
+                                        <div class="form-group">
+                                            <select name="Country" id="countryDropdown" placeholder="Select your country" class="form-control" required
+                                                data-msg-required="This field is required.">
+                                                <option value="" selected disabled hidden>Select your country</option>
+                                                <option value="Afghanistan">Afghanistan</option>
+                                                <option value="Albania">Albania</option>
+                                                <option value="Algeria">Algeria</option>
+                                                <option value="Andorra">Andorra</option>
+                                                <option value="Angola">Angola</option>
+                                                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                                <option value="Argentina">Argentina</option>
+                                                <option value="Armenia">Armenia</option>
+                                                <option value="Australia">Australia</option>
+                                                <option value="Austria">Austria</option>
+                                                <option value="Azerbaijan">Azerbaijan</option>
+                                                <option value="Bahamas">Bahamas</option>
+                                                <option value="Bahrain">Bahrain</option>
+                                                <option value="Bangladesh">Bangladesh</option>
+                                                <option value="Barbados">Barbados</option>
+                                                <option value="Belarus">Belarus</option>
+                                                <option value="Belgium">Belgium</option>
+                                                <option value="Belize">Belize</option>
+                                                <option value="Benin">Benin</option>
+                                                <option value="Bhutan">Bhutan</option>
+                                                <option value="Bolivia">Bolivia</option>
+                                                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                                                <option value="Botswana">Botswana</option>
+                                                <option value="Brazil">Brazil</option>
+                                                <option value="Brunei">Brunei</option>
+                                                <option value="Bulgaria">Bulgaria</option>
+                                                <option value="Burkina Faso">Burkina Faso</option>
+                                                <option value="Burundi">Burundi</option>
+                                                <option value="Cabo Verde">Cabo Verde</option>
+                                                <option value="Cambodia">Cambodia</option>
+                                                <option value="Cameroon">Cameroon</option>
+                                                <option value="Canada">Canada</option>
+                                                <option value="Central African Republic">Central African Republic
+                                                </option>
+                                                <option value="Chad">Chad</option>
+                                                <option value="Chile">Chile</option>
+                                                <option value="China">China</option>
+                                                <option value="Colombia">Colombia</option>
+                                                <option value="Comoros">Comoros</option>
+                                                <option value="Congo (Congo-Brazzaville)">Congo (Congo-Brazzaville)
+                                                </option>
+                                                <option value="Costa Rica">Costa Rica</option>
+                                                <option value="Croatia">Croatia</option>
+                                                <option value="Cuba">Cuba</option>
+                                                <option value="Cyprus">Cyprus</option>
+                                                <option value="Czechia (Czech Republic)">Czechia (Czech Republic)
+                                                </option>
+                                                <option value="Denmark">Denmark</option>
+                                                <option value="Djibouti">Djibouti</option>
+                                                <option value="Dominica">Dominica</option>
+                                                <option value="Dominican Republic">Dominican Republic</option>
+                                                <option value="Ecuador">Ecuador</option>
+                                                <option value="Egypt">Egypt</option>
+                                                <option value="El Salvador">El Salvador</option>
+                                                <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                                <option value="Eritrea">Eritrea</option>
+                                                <option value="Estonia">Estonia</option>
+                                                <option value="Eswatini (fmr. 'Swaziland')">Eswatini (fmr. 'Swaziland')
+                                                </option>
+                                                <option value="Ethiopia">Ethiopia</option>
+                                                <option value="Fiji">Fiji</option>
+                                                <option value="Finland">Finland</option>
+                                                <option value="France">France</option>
+                                                <option value="Gabon">Gabon</option>
+                                                <option value="Gambia">Gambia</option>
+                                                <option value="Georgia">Georgia</option>
+                                                <option value="Germany">Germany</option>
+                                                <option value="Ghana">Ghana</option>
+                                                <option value="Greece">Greece</option>
+                                                <option value="Grenada">Grenada</option>
+                                                <option value="Guatemala">Guatemala</option>
+                                                <option value="Guinea">Guinea</option>
+                                                <option value="Guinea-Bissau">Guinea-Bissau</option>
+                                                <option value="Guyana">Guyana</option>
+                                                <option value="Haiti">Haiti</option>
+                                                <option value="Holy See">Holy See</option>
+                                                <option value="Honduras">Honduras</option>
+                                                <option value="Hungary">Hungary</option>
+                                                <option value="Iceland">Iceland</option>
+                                                <option value="India">India</option>
+                                                <option value="Indonesia">Indonesia</option>
+                                                <option value="Iran">Iran</option>
+                                                <option value="Iraq">Iraq</option>
+                                                <option value="Ireland">Ireland</option>
+                                                <option value="Italy">Italy</option>
+                                                <option value="Jamaica">Jamaica</option>
+                                                <option value="Japan">Japan</option>
+                                                <option value="Jordan">Jordan</option>
+                                                <option value="Kazakhstan">Kazakhstan</option>
+                                                <option value="Kenya">Kenya</option>
+                                                <option value="Kiribati">Kiribati</option>
+                                                <option value="Korea (North)">Korea (North)</option>
+                                                <option value="Korea (South)">Korea (South)</option>
+                                                <option value="Kuwait">Kuwait</option>
+                                                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                                <option value="Laos">Laos</option>
+                                                <option value="Latvia">Latvia</option>
+                                                <option value="Lebanon">Lebanon</option>
+                                                <option value="Lesotho">Lesotho</option>
+                                                <option value="Liberia">Liberia</option>
+                                                <option value="Libya">Libya</option>
+                                                <option value="Liechtenstein">Liechtenstein</option>
+                                                <option value="Lithuania">Lithuania</option>
+                                                <option value="Luxembourg">Luxembourg</option>
+                                                <option value="Madagascar">Madagascar</option>
+                                                <option value="Malawi">Malawi</option>
+                                                <option value="Malaysia">Malaysia</option>
+                                                <option value="Maldives">Maldives</option>
+                                                <option value="Mali">Mali</option>
+                                                <option value="Malta">Malta</option>
+                                                <option value="Marshall Islands">Marshall Islands</option>
+                                                <option value="Mauritania">Mauritania</option>
+                                                <option value="Mauritius">Mauritius</option>
+                                                <option value="Mexico">Mexico</option>
+                                                <option value="Micronesia">Micronesia</option>
+                                                <option value="Moldova">Moldova</option>
+                                                <option value="Monaco">Monaco</option>
+                                                <option value="Mongolia">Mongolia</option>
+                                                <option value="Montenegro">Montenegro</option>
+                                                <option value="Morocco">Morocco</option>
+                                                <option value="Mozambique">Mozambique</option>
+                                                <option value="Myanmar (Burma)">Myanmar (Burma)</option>
+                                                <option value="Namibia">Namibia</option>
+                                                <option value="Nauru">Nauru</option>
+                                                <option value="Nepal">Nepal</option>
+                                                <option value="Netherlands">Netherlands</option>
+                                                <option value="New Zealand">New Zealand</option>
+                                                <option value="Nicaragua">Nicaragua</option>
+                                                <option value="Niger">Niger</option>
+                                                <option value="Nigeria">Nigeria</option>
+                                                <option value="North Macedonia">North Macedonia</option>
+                                                <option value="Norway">Norway</option>
+                                                <option value="Oman">Oman</option>
+                                                <option value="Pakistan">Pakistan</option>
+                                                <option value="Palau">Palau</option>
+                                                <option value="Palestine State">Palestine State</option>
+                                                <option value="Panama">Panama</option>
+                                                <option value="Papua New Guinea">Papua New Guinea</option>
+                                                <option value="Paraguay">Paraguay</option>
+                                                <option value="Peru">Peru</option>
+                                                <option value="Philippines">Philippines</option>
+                                                <option value="Poland">Poland</option>
+                                                <option value="Portugal">Portugal</option>
+                                                <option value="Qatar">Qatar</option>
+                                                <option value="Romania">Romania</option>
+                                                <option value="Russia">Russia</ <option value="Rwanda">Rwanda</option>
+                                                <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                                                <option value="Saint Lucia">Saint Lucia</option>
+                                                <option value="Saint Vincent and the Grenadines">Saint Vincent and the
+                                                    Grenadines</option>
+                                                <option value="Samoa">Samoa</option>
+                                                <option value="San Marino">San Marino</option>
+                                                <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                                                <option value="Saudi Arabia">Saudi Arabia</option>
+                                                <option value="Senegal">Senegal</option>
+                                                <option value="Serbia">Serbia</option>
+                                                <option value="Seychelles">Seychelles</option>
+                                                <option value="Sierra Leone">Sierra Leone</option>
+                                                <option value="Singapore">Singapore</option>
+                                                <option value="Slovakia">Slovakia</option>
+                                                <option value="Slovenia">Slovenia</option>
+                                                <option value="Solomon Islands">Solomon Islands</option>
+                                                <option value="Somalia">Somalia</option>
+                                                <option value="South Africa">South Africa</option>
+                                                <option value="South Sudan">South Sudan</option>
+                                                <option value="Spain">Spain</option>
+                                                <option value="Sri Lanka">Sri Lanka</option>
+                                                <option value="Sudan">Sudan</option>
+                                                <option value="Suriname">Suriname</option>
+                                                <option value="Sweden">Sweden</option>
+                                                <option value="Switzerland">Switzerland</option>
+                                                <option value="Syria">Syria</option>
+                                                <option value="Tajikistan">Tajikistan</option>
+                                                <option value="Tanzania">Tanzania</option>
+                                                <option value="Thailand">Thailand</option>
+                                                <option value="Timor-Leste">Timor-Leste</option>
+                                                <option value="Togo">Togo</option>
+                                                <option value="Tonga">Tonga</option>
+                                                <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                                <option value="Tunisia">Tunisia</option>
+                                                <option value="Turkey">Turkey</option>
+                                                <option value="Turkmenistan">Turkmenistan</option>
+                                                <option value="Tuvalu">Tuvalu</option>
+                                                <option value="Uganda">Uganda</option>
+                                                <option value="Ukraine">Ukraine</option>
+                                                <option value="United Arab Emirates">United Arab Emirates</option>
+                                                <option value="United Kingdom">United Kingdom</option>
+                                                <option value="United States of America">United States of America
+                                                </option>
+                                                <option value="Uruguay">Uruguay</option>
+                                                <option value="Uzbekistan">Uzbekistan</option>
+                                                <option value="Vanuatu">Vanuatu</option>
+                                                <option value="Vatican City">Vatican City</option>
+                                                <option value="Venezuela">Venezuela</option>
+                                                <option value="Vietnam">Vietnam</option>
+                                                <option value="Yemen">Yemen</option>
+                                                <option value="Zambia">Zambia</option>
+                                                <option value="Zimbabwe">Zimbabwe</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="text" name="Email or Phone"
+                                                placeholder="Email address or Phone number"
+                                                class="form-control s123-force-ltr" required=""
+                                                data-msg-required="This field is required." data-rule-email="true"
+                                                data-msg-email="Please enter a valid email.">
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="Message" placeholder="Message"
+                                                style="min-height: 100px;"></textarea>
+                                        </div>
+                                        <button id="submit" type="submit"
+                                            class="btn btn-primary btn-block">Send</button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="headers-img-wrap" style="--header-image-opacity:0.5;">
+                    <div class="headers-carousel-deactivated carousel slide carousel-fade jarallax-container ">
+                        <div class="carousel-inner jarallax-container">
+                            <div class="item active one-item jarallax-container">
+                                <div class="headers-item jarallax-container">
+                                    <div data-idele="parallax_headers_mirror_169" data-bleed="30"
+                                        data-image-src="https://images.cdn-files-a.com/ready_uploads/media/4967404/2000_5ea9898e06a3e.jpg"
+                                        data-position="center center" data-background-position="center center"
+                                        data-parallax="scroll" data-backgroundcolor="#000000" data-opacity="0.5"
+                                        class="headers-image parallax-window jarallax-container"
+                                        data-bg="https://images.cdn-files-a.com/ready_uploads/media/4967404/2000_5ea9898e06a3e.jpg"
+                                        style="background-image: none; background-position: center center; filter: none; position: relative; z-index: 0;"
+                                        data-jarallax-original-styles="background-image: url(&quot;https://images.cdn-files-a.com/ready_uploads/media/4967404/2000_5ea9898e06a3e.jpg&quot;); background-position: center center; filter: none;">
+                                        <div id="jarallax-container-0" class="jarallax-container"
+                                            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden;  clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px 100%); background-color: rgb(0, 0, 0);">
+
+                                        </div>
+                                        <div id="jarallax-container-0" class="jarallax-container"
+                                            style="top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px 100%); background-color: rgb(0, 0, 0);">
+                                            <div style="background-position: center center; 
+                                               background-size: cover; 
+                                               background-repeat: no-repeat; 
+                                               background-image: url('nn.jpg'); 
+                                               position: absolute; 
+                                               top: 0; 
+                                               left: 0; 
+                                               width: 100%; 
+                                               height: 100%; 
+                                 
+                                               transform-style: preserve-3d; 
+                                               will-change: transform; 
+                                               backface-visibility: hidden; 
+                                               margin: 0; 
+                                               transform: translate3d(0, 0, 0); 
+                                               opacity: 0.5; 
+                                               filter: none; ">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-us" class="container my-5">
+        <div class="row ">
+
+            <div class="col-lg-7 col-md-7 col-sm-12  justify-content-center align-items-center p-5 ">
+                <h1 class="pb-3" style="text-decoration:wavy;">
+                    About Bayan AR
+                </h1>
+                <p style="font-size: 22px; font-weight:400;" class="cc">
+                    Bayan AR is the first platform of its kind specialized in teaching the Arabic language.
+                    And developing it for non-native speakers, and the Arab heritage and culture, through live
+                    broadcasting.
+                    In an interesting participatory style between the trainer and the students, away from the boring
+                    traditional methods.
+                </p>
+                <p style="font-size: 22px; font-weight:400;" class="cc">
+                    Based in the Kingdom of Saudi Arabia, it includes a number of qualified and competent Saudi trainers
+                    who speak their native language Arabic, English and other languages.
+                </p>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12  text-center">
+                <img src="./about-removebg-preview.png" style="max-width:100%;">
+            </div>
+        </div>
+    </section>
+    <section id="our-vision" class="container mt-3 mb-5">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-12  text-center  ">
+                <img src="./vision-removebg-preview.png" style="max-width:100%;">
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12  justify-content-center align-items-center p-5 ">
+                <h1 class="pb-3" style="text-decoration:wavy;">
+                    Our Vision
+                </h1>
+                <p style="font-size: 22px; font-weight:400; " class="cc">
+                    Helping everyone around the world to learn the Arabic language, and to gain a closer look at the
+                    heritage and
+                    The ancient Arab and Islamic culture, without time or geographical restrictions.
+                </p>
+                <p style="font-size: 22px; font-weight:400;" class="cc">
+                    To meet the growing demand around the world for learning the Arabic language.
+                </p>
+                <p style="font-size: 22px; font-weight:400;" class="cc">
+                    Providing integrated, modern and interactive e-learning for the Arabic language.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <section id="why-learn-arabic" class="container mt-3 mb-5">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12  justify-content-center align-items-center p-5 ">
+                <h1 class="pb-3" style="text-decoration:wavy;">
+                    Why Learn Arabic? </h1>
+                <p style="font-size: 22px; font-weight:400; " class="cc">
+                    The Arabic language represents an ancient Arab and Islamic culture and civilization.
+                </p>
+                <p style="font-size: 22px; font-weight:400;" class="cc">
+                    It is a living, contemporary language that represents a wide segment of human societies that are the
+                    focus of the world’s attention, as the number of its speakers exceeds 467 million people.
+                </p>
+                <p style="font-size: 22px; font-weight:400;" class="cc">
+                    It is the official language of 27 countries and one of the six official languages ​​of the United
+                    Nations.
+                </p>
+                <p style="font-size: 22px; font-weight:400;" class="cc">
+                    Learning Arabic is witnessing a growing and noticeable demand from non-native speakers for various
+                    reasons, including politics, economics, religion, education and tourism.
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12  text-center pt-5  ">
+                <img src="./whh.png" style="max-width: 100%; border-radius: 10px;">
+            </div>
+        </div>
+    </section>
+    <section id="how-it-works" class="container mt-3 mb-1" style=" margin-bottom: 0px !important;">
+        <div class="row">
+            <div class="col-12 col-lg-12 col-md-12 col-sm-12  justify-content-center align-items-center p-5 pb-0">
+                <h1 class="pb-3" style="text-decoration:wavy;">How to learn with Bayan AR</h1>
+                <p style="font-size: 22px; font-weight:400;" class="cc">
+                    With Bayan AR you can choose between two distinct learning methods:
+                </p>
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12  justify-content-center align-items-center p-5 pt-3">
+                <p style="font-size: 22px; font-weight:400;" class="cc">
+                    <span style="font-weight: bold;">The first:</span> A live group class with your teacher for 50
+                    minutes and with 8 students in the group.
+                </p>
+                <p style="font-size: 22px; font-weight:400;" class="cc">
+                    This is the best option if you want to build your conversation skills quickly, as 80% of the class
+                    time is allocated to dialogue and speaking after new educational content is presented by your
+                    teacher.
+                </p>
+                <p style="font-size: 22px; font-weight:400;" class="cc">
+                    Then you and your colleagues participate in role-playing, tests and group conversations, which
+                    enables you to increase your cognitive abilities and make new friends with people from diverse
+                    cultures and nationalities.
+                </p>
+                <p style="font-size: 22px; font-weight:400;">
+                    All classes are recorded and you can review them if you are unable to attend.
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12  text-center pt-5 pb-2 ">
+                <img src="./IMG_6822-removebg-preview.png" style="max-width: 100%; border-radius: 10px;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12  text-center   ">
+                <img src="./how.jpeg" style="width: 100%; border-radius: 10px; height: 80%;">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12  justify-content-center align-items-center p-5 pt-0 ">
+                <p style="font-size: 22px; font-weight:400; line-height: 35px; ">
+                    <span style="font-weight: bold;">The second:</span> A 50-minute individual lesson with your teacher
+                    is more private and more flexible
+                    for your schedule and commitments
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact-us" class="container mt-0 mb-5" style="margin-top: 0px; ">
+        <h1 class="pb-3" style="text-decoration:wavy; text-align: center;">Contact Us</h1>
+        <div
+            style="margin-bottom: 15px; font-size: 18px; display: flex; align-items: center; justify-content: center; gap: 10px;">
+            <i class="fas fa-envelope" style="color: #029999; font-size: 24px;"></i>
+            <a href="mailto:BayanAR.su@gmail.com"
+                style="color: #029999; text-decoration: none; font-weight: bold;">BayanAR.su@gmail.com</a>
+        </div>
+        <div
+            style="font-size: 18px; display: flex; align-items: center; justify-content: center; gap: 10px;margin-bottom: 100px;">
+            <i class="fab fa-whatsapp" style="color: #25D366; font-size: 24px;"></i>
+            <a href="https://wa.me/966501868850" target="_blank"
+                style="color: #000; text-decoration: none; font-weight: bold;">
+                +966501868850
+            </a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer
+        style="background-color: #333; color: #fff; padding: 20px; text-align: center; font-family: Arial, sans-serif;">
+        <p style="margin: 0;">&copy; 2025 Bayan AR. All rights reserved.</p>
+        <div style="margin-top: 10px;">
+        </div>
+    </footer>
+    <!-- Loading Modal -->
+    <div id="loadingModal"
+        style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 9999;  align-items: center; justify-content: center;">
+        <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center; width: 200px;">
+            <h4>Loading...</h4>
+            <div class="spinner"
+                style="margin: 20px auto 0 auto; width: 50px; height: 50px; border: 5px solid #f3f3f3; border-top: 5px solid #1990a0; border-radius: 50%; animation: spin 1s linear infinite;">
+            </div>
+        </div>
+    </div>
+    <div id="responseModal"
+        style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 9999; align-items: center; justify-content: center;">
+        <div style="background-color: white; padding: 20px; border-radius: 10px; text-align: center;">
+            <div id="responseIcon" style="font-size: 50px; margin-bottom: 10px;"></div>
+            <h4 id="responseMessage"></h4>
+            <button onclick="closeResponseModal()"
+                style="margin-top: 20px; padding: 10px 20px; background-color: #3498db; color: white; border: none; border-radius: 5px; cursor: pointer;">OK</button>
+        </div>
+    </div>
+
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+        integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+    integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    document.querySelectorAll('.s123-module-headers').forEach((element) => {
+        element.style.whiteSpace = 'normal';
+    });
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwql4qsv5_nSr91AGKymLmFgssyp5LmY9Bz0bH0pQ8jtpA3hiqXWfkcy87yhzTxKCZA2g/exec';
+    const form = document.querySelector("#form");
+    const submitButton = document.querySelector("#submit");
+    const loadingModal = document.querySelector("#loadingModal");
+    const responseModal = document.querySelector("#responseModal");
+    const responseIcon = document.querySelector("#responseIcon");
+    const responseMessage = document.querySelector("#responseMessage");
+
+    form.addEventListener('submit', e => {
+        e.preventDefault(); // Prevent default form submission
+        submitButton.disabled = true; // Disable the submit button
+        loadingModal.style.display = "flex"; // Show the loading modal
+
+        let requestBody = new FormData(form);
+        fetch(scriptURL, { method: 'POST', body: requestBody })
+            .then(response => {
+                loadingModal.style.display = "none"; // Hide the loading modal
+                showResponseModal("✔️", "Success! Your data was submitted successfully."); // Show success modal
+                form.reset(); // Reset the form
+                submitButton.disabled = false; // Re-enable the submit button
+            })
+            .catch(error => {
+                loadingModal.style.display = "none"; // Hide the loading modal
+                showResponseModal("❌", "Error! " + error.message); // Show error modal
+                submitButton.disabled = false; // Re-enable the submit button
+            });
+    });
+
+    function showResponseModal(icon, message) {
+        responseIcon.textContent = icon; // Set the icon (success or error)
+        responseMessage.textContent = message; // Set the message
+        responseModal.style.display = "flex"; // Show the response modal
+    }
+
+    function closeResponseModal() {
+        responseModal.style.display = "none"; // Hide the response modal
+    }
+
+
+    const select = document.getElementById("countryDropdown");
+    select.style.color = " #a1a0a0"; // Set placeholder color initially
+
+    select.addEventListener("change", function () {
+        if (select.value === "") {
+            select.style.color = " #a1a0a0"; // Placeholder color
+        } else {
+            select.style.color = "black"; // Selected option color
+        }
+    });
+</script>
+
+</html>
